@@ -1,0 +1,98 @@
+* {
+    font-family: 'Arial';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333fff;
+}
+
+body {
+    font-family: 'Open Sans';
+    font-size: 20px;
+
+    background-color: #1c1b1b;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.calc-imc {
+    padding: 1em;
+    box-shadow: 5px 5px 5px 5px, 5px 5px 5px 5px #333fff;
+    background-color: #1c1b1b;
+}
+
+@media (min-width: 500px) {
+    .calc-imc {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 500px;
+        width: 100%;
+        padding: 1em;
+    }
+}
+
+.calc-imc h1 {
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    margin-bottom: 350px;
+    font-size: 36px;
+    text-decoration: none;
+}
+
+.form {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.3em;
+}
+
+.form label,
+.form button {
+    margin-top: 20px;
+}
+
+.form input {
+    font-size: inherit;
+    font-family: inherit;
+    width: 100%;
+    padding: 0.5em;
+    color: #333fff;
+}
+
+.form button {
+    background-color: #333fff;
+    cursor: pointer;
+    width: 50%;
+    font-size: inherit;
+    font-family: inherit;
+    padding: 0.5em;
+    color: white;
+}
+
+.form button:hover {
+    background-color: #3341ffe1;
+}
+
+.form button:active {
+    background-color: #3341ffc3;
+    color: white;
+}
+
+.modal {
+    font-size: 24px;
+}
+
+.titulo modal {
+    text-align: center;
+    font-size: 36px;
+    text-decoration: none;
+}
